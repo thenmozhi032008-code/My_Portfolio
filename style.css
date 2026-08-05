@@ -27,11 +27,26 @@ nav a {
     text-decoration: none;
 }
 .hero {
-    background: #3498db;
-    color: #fff;
+    /*background: #3498db;*/
+   /* background-image: url(c:/Users/ELCOT/Downloads/cybersec_BG_pic.jpg);
+    background-repeat: no-repeat;*/
+    /*color: #fff;*/
+    color: #3498db;
     text-align: center;
     padding: 4rem 1rem;
 }
+
+body{
+    margin: 0;
+    min-height: 100vh;
+
+    background-image:url(c:/Users/ELCOT/Downloads/cybersec_BG_pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      /* Adjusts to any screen */
+    background-position: center; /* Keeps image centered */
+    background-attachment: fixed; /* Optional */
+}
+
 .btn {
     display: inline-block;
     background: #fff;
@@ -86,4 +101,49 @@ h1{
 
 .github-link i{
     font-size: 24px;
+}
+
+.contact-item a{
+    text-decoration: none;
+    color: lightblue;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.contact-item a:hover{
+    color: #EA4335; /* Gmail red */
+}
+
+.contact-item i{
+    font-size: 24px;
+}
+
+.contact-item a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: lightblue;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.contact-item a:hover{
+    color: #0A66C2; /* LinkedIn Blue */
+}
+
+.contact-item i{
+    font-size: 24px;
+}
+
+h2{
+    color: orange;
+}
+
+p{
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
