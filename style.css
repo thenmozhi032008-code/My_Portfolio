@@ -26,6 +26,9 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
+nav a:hover{
+    color: orange;
+}
 .hero {
     /*background: #3498db;*/
    /* background-image: url(c:/Users/ELCOT/Downloads/cybersec_BG_pic.jpg);
@@ -35,12 +38,15 @@ nav a {
     text-align: center;
     padding: 4rem 1rem;
 }
+.hero a:hover{
+    color: orange;
+}
 
 body{
     margin: 0;
     min-height: 100vh;
 
-    background-image:url(c:/Users/ELCOT/Downloads/cybersec_BG_pic.jpg);
+    background-image:url(c:/Users/ELCOT/Downloads/cybersec_BG_pic1.jpg);
     background-repeat: no-repeat;
     background-size: cover;      /* Adjusts to any screen */
     background-position: center; /* Keeps image centered */
@@ -68,10 +74,21 @@ body{
     margin-top: 1rem;
 }
 .project-card {
-    background: #f4f4f4;
+    /*background: #f4f4f4;*/
+    background:#2c3e50;
     padding: 1.5rem;
+    backdrop-filter: blur(10px);
     border-radius: 5px;
     flex: 1;
+}
+.project-card h3{
+    color:black;
+}
+.project-card a:hover{
+    color:blue;
+}
+.project-card p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer {
     text-align: center;
@@ -146,4 +163,15 @@ h2{
 p{
     color: burlywood;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*.container p{
+    font-size: medium;
+    font-style: italic;
+}*/
+
+#about p{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
 }
