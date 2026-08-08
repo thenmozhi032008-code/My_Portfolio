@@ -46,7 +46,7 @@ body{
     margin: 0;
     min-height: 100vh;
 
-    background-image:url(c:/Users/ELCOT/Downloads/cybersec_BG_pic1.jpg);
+    background-image:url(Images/cybersec_BG_pic1.jpg);
     background-repeat: no-repeat;
     background-size: cover;      /* Adjusts to any screen */
     background-position: center; /* Keeps image centered */
